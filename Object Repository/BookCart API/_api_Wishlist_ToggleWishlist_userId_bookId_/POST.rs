@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>POST</name>
+   <tag></tag>
+   <elementGuidId>44bc8ee7-0c6d-4b0b-b0b5-003c20688597</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <autoUpdateContent>true</autoUpdateContent>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>true</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent></httpBodyContent>
+   <httpBodyType></httpBodyType>
+   <katalonVersion>10.1.0</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <path>/api/Wishlist/ToggleWishlist/{userId}/{bookId}</path>
+   <restRequestMethod>POST</restRequestMethod>
+   <restUrl>//api/Wishlist/ToggleWishlist/${userId}/${bookId}</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>null</defaultValue>
+      <description>&lt;integer> {Required} null</description>
+      <id>9a30f471-2d7d-44b6-9654-f4c551b751d7</id>
+      <masked>false</masked>
+      <name>userId</name>
+   </variables>
+   <variables>
+      <defaultValue>null</defaultValue>
+      <description>&lt;integer> {Required} null</description>
+      <id>b36f8eb2-53fd-4d5d-8b0f-d05f4e654b3e</id>
+      <masked>false</masked>
+      <name>bookId</name>
+   </variables>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>
